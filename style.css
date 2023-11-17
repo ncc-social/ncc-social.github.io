@@ -13,7 +13,7 @@ html {
   position: fixed;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: scale(0.8) translate(-70%, -70%);
   width: 480px;
   height: 480px;
   border-radius: 50%;
@@ -25,7 +25,7 @@ html {
   position: absolute;
   width: 220px;
   height: 1px;
-  background: red;
+  background: #6cbe35;
   left: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -36,7 +36,7 @@ html {
   content: '';
   position: absolute;
   border: 7px solid transparent;
-  border-right-color: red;
+  border-right-color: #6cbe35;
   right: 0;
   top: -7px;
 }
@@ -44,7 +44,7 @@ html {
   content: '';
   position: absolute;
   border: 7px solid transparent;
-  border-left-color: red;
+  border-left-color: #6cbe35;
   left: 2px;
   top: -7px;
 }
@@ -198,7 +198,7 @@ html {
 .clock-container .clock-digital:after {
   content: '';
   position: absolute;
-  border: 15px solid #8e0a0a;
+  border: 15px solid #6cbe35;
   border-right: none;
   height: 400px;
   width: 200px;
