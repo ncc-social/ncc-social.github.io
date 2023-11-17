@@ -10,10 +10,10 @@ html {
 }
 
 .clock-container {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: scale(0.8) translate(-70%, -70%);
+  /* position: fixed; */
+  /* left: 50%; */
+  /* top: 50%; */
+  transform: scale(0.8) translate(-0%, -0%);
   width: 480px;
   height: 480px;
   border-radius: 50%;
