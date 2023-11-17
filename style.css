@@ -4,7 +4,7 @@
 }
 
 html {
-  background: #222;
+  background: rgba(0, 0, 0, 0);
   overflow: hidden;
   font-family: 'BenchNine', sans-serif;
 }
