@@ -13,7 +13,7 @@ html {
   /* position: fixed; */
   /* left: 50%; */
   /* top: 50%; */
-  transform: scale(0.5) translate(-40%, -40%);
+  transform: scale(0.6) translate(-30%, -30%);
   width: 480px;
   height: 480px;
   border-radius: 50%;
