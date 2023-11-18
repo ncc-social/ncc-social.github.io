@@ -44,8 +44,13 @@
     // API endpoint with random verse
     const apiUrl = `https://api.quran.com/api/v4/verses/random?translations=131`;
     
+    const options = {
+        headers: {
+            'Accept': 'application/json'
+        }  
+    };
     // Fetch random verse data from API
-    fetch(apiUrl)
+    fetch(apiUrl, options)
       .then(response => response.json())
       .then(data => {
         // Display verse and translation
