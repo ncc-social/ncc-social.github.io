@@ -1,6 +1,6 @@
 function getRandomVerse() {
     $.ajax({
-        url: '`https://api.quran.com/api/v4/verses/random?translations=131`',
+        url: 'https://api.quran.com/api/v4/verses/random?translations=131',
         method: 'GET',
         headers: { 
             'Accept': 'application/json'
