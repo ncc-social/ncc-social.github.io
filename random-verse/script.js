@@ -1,7 +1,10 @@
 function getRandomVerse() {
     $.ajax({
-        url: 'https://api.quran.com/v4/verses/random',
+        url: '`https://api.quran.com/api/v4/verses/random?translations=131`',
         method: 'GET',
+        headers: { 
+            'Accept': 'application/json'
+        },
         success: function (data) {
             displayVerse(data);
         },
@@ -12,8 +15,8 @@ function getRandomVerse() {
 }
 
 function displayVerse(verseData) {
-    const arabicVerse = verseData.data[0].attributes.text_madani;
-    const englishVerse = verseData.data[0].attributes.translation_en;
+    const arabicVerse = verseData.verse.text_uthmani;
+    const englishVerse = verseData.verse.translations.text;
 
     $('#arabicVerse').text(arabicVerse);
     $('#englishVerse').text(englishVerse);
