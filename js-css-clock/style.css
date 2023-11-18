@@ -8,9 +8,10 @@
 }
 
 body {
-  box-sizing: border-box;
-  background-color: #E0E0E0;
-  font-family: "Overpass", sans-serif;
+    box-sizing: border-box;
+	background-color: rgba(0,0,0,0);
+    font-family: 'Overpass', sans-serif; 
+	transform: scale(0.6);
 }
 
 .container {
