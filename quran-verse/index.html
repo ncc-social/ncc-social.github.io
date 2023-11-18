@@ -50,7 +50,7 @@
       .then(data => {
         // Display verse and translation
         document.getElementById("verse").innerText = data.verse.text_uthmani;
-        document.getElementById("translation").innerText = data.verse.translations[0].text;
+        document.getElementById("translation").innerText = data.verse.wordstranslations.text;
       });
   </script>
 
