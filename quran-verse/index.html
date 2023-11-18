@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Quran Verse</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    p {
+      font-size: 1.2em;
+    }
+    
+    .arabic {
+      font-size: 2em;
+      font-family: 'Scheherazade New', serif;
+      text-align: right;
+    }
+    
+    .english {
+      font-size: 1.5em;
+      font-family: 'Times New Roman', serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Daily Quran Verse</h1>
+  
+  <p id="verse" class="arabic"></p>
+
+  <p id="translation" class="english"></p>
+
+  <script>
+    // Get today's date
+    const today = new Date();
+    
+    // API endpoint with random verse
+    const apiUrl = `https://api.quran.com/api/v4/random?language=en`;
+    
+    // Fetch random verse data from API
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        // Display verse and translation
+        document.getElementById("verse").innerText = data.verse.text_uthmani;
+        document.getElementById("translation").innerText = data.verse.translations[0].text;
+      });
+  </script>
+
+</body>
+</html>
