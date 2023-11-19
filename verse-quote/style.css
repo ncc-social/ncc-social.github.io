@@ -22,16 +22,16 @@
 }
 blockquote p {
   display: inline;
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height:1.5;
 }
 .blockquote-section {width:100%;max-width:1200px;margin:0 auto;opacity:0.95;padding:20px;}
 .blockquote-section > #cite {font-style:none}
 #bismillah {text-align: center;color: white;}
-#verse {font-family: 'Hafs', serif;color:white;text-align:right;padding-right:50px;font-size:2rem;}
+#verse {font-family: 'Hafs', serif;color:white;text-align:right;padding-right:50px;font-size:1.6rem;}
 #cite {color:white;padding-left:20px;font-size:1rem;}
 
-body {background:#171717;padding-top:50px;
+body {background:#171717;padding-top:20px;
 
 font-family: 'Quicksand', sans-serif;
 }
