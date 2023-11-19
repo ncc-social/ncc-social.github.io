@@ -16,7 +16,7 @@ function getRandomVerse() {
 
 function displayVerse(verseData) {
     const arabicVerse = verseData.verse.text_uthmani;
-    const englishVerse = verseData.verse.translations.text;
+    const englishVerse = verseData.verse.translations[0].text;
 
     $('#arabicVerse').text(arabicVerse);
     $('#englishVerse').text(englishVerse);

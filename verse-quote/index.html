@@ -1,66 +1,14 @@
 <!DOCTYPE html>
-<html>
 <head>
-  <title>Daily Quran Verse</title>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@500&display=swap" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
-  
-  <style>
-    @font-face {
-        font-family: "Neiziri";
-        src: url(Neirizi.ttf) format("truetype");
-        /* font-family: "Hafs"; */
-        /* src: url(Hafs.ttf) format("truetype"); */
-    }
-    @font-face {
-        /* font-family: "Neiziri"; */
-        /* src: url(Neirizi.ttf) format("truetype"); */
-        font-family: "Hafs";
-        src: url(Hafs.ttf) format("truetype");
-    }
-    
-    body {
-      font-family: 'Inter', sans-serif;
-      text-align: center;
-    }
-    
-    h1 {
-      color: #333;
-    }
-    
-    /* p {
-      font-size: 1.2em;
-    } */
-    
-    .arabic {
-      
-        font-size: 2em;
-        font-family: 'Hafs', serif;
-        /* font-family: 'Neiziri', serif; */
-        /* font-family: 'p562-v1', serif; */
-        text-align: center;
-    }
-    
-    .english {
-      font-family: 'Inter', serif;
-      font-weight: 300;
-      line-height: 1.6em;
-      /* #ont-size: 1.2em; */
-      
-    }
-
-    #verse-no {
-      font-family: 'Inter', serif;
-      font-weight: 500;
-      font-size: 1.2em;
-      
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" width="220" height="45" 
+    <div id="bismillah">
+        <svg baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" width="270" height="70" 
         viewBox="0 0 176 36" overflow="inherit" xml:space="preserve">
             <switch>
                 <g>
@@ -68,38 +16,14 @@
                     </path>
                 </g>
             </switch>
-    </svg>
-  <p id="verse" class="arabic"></p>
-
-  <p id="translation" class="english"></p>
-
-  <p id="verse-no"></p>
-
-  <script>
-    // Get today's date
-    const today = new Date();
-    
-    // API endpoint with random verse
-    const apiUrl = `https://api.quran.com/api/v4/verses/random?translations=171&fields=text_uthmani,chapter_id`;
-    
-    // const options = {
-    //     headers: {
-    //         'Accept': 'application/json'
-    //     }  
-    // };
-    // Fetch random verse data from API
-    fetch(apiUrl)
-      .then(response => response.json())
-      .then(data => {
-        // Display verse and translation
-        document.getElementById("verse").innerText = data.verse.text_uthmani;
-        document.getElementById("translation").innerText = data.verse.translations[0].text;
-        document.getElementById("verse-no").innerText = 'Quran Chapter ' + data.verse.chapter_id + ' Verse ' + data.verse.verse_number;
-      });
-    // fetch('https://api.quran.com/api/v4/verses/random?translations=131')
-    //     .then(res => res.json())
-    //     .then(data => console.log(data));
-  </script>
-
+        </svg>
+    </div>
+    <section class="blockquote-section">
+        <p id="verse"></p>
+        <blockquote class="classy-bq"><p id="translation"></p>
+        </blockquote>
+        <span id="cite"></span>
+    </section>
+<script src="script.js"></script>
 </body>
 </html>

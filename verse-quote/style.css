@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Hafs";
+    src: url(Hafs.ttf) format("truetype");
+}
+
+.classy-bq {
+
+  border-left:1px solid #ccc;
+  margin: 1.5em 10px;
+  padding: .7em 25px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color:white;
+}
+.classy-bq:before {
+  color: white;
+  content: open-quote;
+  font-size: 8em;
+  line-height: .1em;
+  margin-right: .25em;
+  vertical-align: -.4em;
+  opacity:0.60;
+}
+blockquote p {
+  display: inline;
+  font-size: 1.4em;
+  line-height:1.5;
+}
+.blockquote-section {width:100%;max-width:1200px;margin:0 auto;opacity:0.95;padding:20px;}
+.blockquote-section > #cite {font-style:none}
+#bismillah {text-align: center;color: white;}
+#verse {font-family: 'Hafs', serif;color:white;text-align:right;padding-right:50px;font-size:2rem;}
+#cite {color:white;padding-left:20px;font-size:1rem;}
+
+body {background:#212121;padding-top:50px;
+
+font-family: 'Quicksand', sans-serif;
+}
