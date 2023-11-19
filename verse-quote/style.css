@@ -6,7 +6,7 @@
 .classy-bq {
 
   border-left:1px solid #ccc;
-  margin: 1.5em 10px;
+  margin: 1em 10px;
   padding: .7em 25px;
   quotes: "\201C""\201D""\2018""\2019";
   color:white;
@@ -22,16 +22,15 @@
 }
 blockquote p {
   display: inline;
-  font-size: 1.2em;
-  line-height:1.5;
+  font-size: 1em;
+  line-height:1.2;
 }
 .blockquote-section {width:100%;max-width:1200px;margin:0 auto;opacity:0.95;padding:20px;}
 .blockquote-section > #cite {font-style:none}
 #bismillah {text-align: center;color: white;}
-#verse {font-family: 'Hafs', serif;color:white;text-align:right;padding-right:50px;font-size:1.6rem;}
-#cite {color:white;padding-left:20px;font-size:1rem;}
+#verse {font-family: 'Hafs', serif;color:white;text-align:right;padding-right:50px;font-size:1.4rem;}
+#cite {color:white;padding-left:20px;font-size:1em;font-style: italic;}
 
 body {background:#171717;padding-top:20px;
-
 font-family: 'Quicksand', sans-serif;
 }
