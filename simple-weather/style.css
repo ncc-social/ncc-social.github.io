@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:300,400,700);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css);
 
 body {
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
 	left: 50%;
 	top: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	transform: translate(-50%, -70%);
+	transform: scale(0.7) translate(-80%, -80%);;
 }
 
 .weatherIcon {
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	color: #eee;
-	font-family: 'Open Sans';
+	font-family: 'Inter';
 	font-weight: 200;
 	font-size: 2.9375em;
 	line-height: 2.9375em;
@@ -73,7 +73,7 @@ h1 {
 
 h2 {
 	color: #bbb;
-	font-family: 'Open Sans';
+	font-family: 'Inter';
 	font-weight: 200;
 	font-size: 1.1875em;
 	line-height: 1.1875em;
@@ -84,7 +84,7 @@ h2 {
 
 h3 {
 	color: #eee;
-	font-family: 'Open Sans';
+	font-family: 'Inter';
 	font-weight: 400;
 	font-size: 0.8125em;
 	line-height: 0.8125em;
@@ -95,7 +95,7 @@ h3 {
 
 h4 {
 	color: #fff;
-	font-family: 'Open Sans';
+	font-family: 'Inter';
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 0.6875em;
@@ -108,7 +108,7 @@ h4 {
 
 h5 {
 	color: #fff;
-	font-family: 'Open Sans';
+	font-family: 'Inter';
 	font-weight: 500;
 	font-size: 1.8125em;
 	line-height: 28px;
