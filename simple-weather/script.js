@@ -6,7 +6,7 @@ $(document).ready(function () {
         const longitude = ipData.lon;
     
         // OpenWeatherMap API key
-        const openWeatherApiKey = "YOUR_OPENWEATHERMAP_KEY";
+        const openWeatherApiKey = "fa3efeddd8945f7bdd69c124d2a8bb44";
         // Replace 'YOUR_OPENWEATHERMAP_KEY' with your actual API key
     
         // OpenWeatherMap API endpoint
