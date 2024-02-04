@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
 	left: 50%;
 	top: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	transform: scale(0.7) translate(-80%, -80%);;
+	transform: translate(-50%, -70%);
 }
 
 .weatherIcon {
