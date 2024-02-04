@@ -2,7 +2,8 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.2/css/weather-icons.min.css);
 
 body {
-	background: linear-gradient(90deg, #754d8b 0%, #4e5992 100%);
+	/* background: linear-gradient(90deg, #754d8b 0%, #4e5992 100%); */
+    background-color: transparent;
 	font-size: 18px;
 }
 
@@ -18,11 +19,12 @@ h1, h2, h3, h4, h5 {
 	position: absolute;
 	left: 50%;
 	top: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 	transform: translate(-50%, -50%);
 }
 
 .weatherIcon {
-	background-color: #f0f8fa;
+	background-color: #FFFFFF;
 	height: 70%;
 	width: 100%;
 	position: absolute;
@@ -38,7 +40,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .weatherIcon i {
-	color: #818b8d;
+	color: #1C1C1C;
 	font-size: 110px;
 	position: absolute;
 	left: 50%;
@@ -47,7 +49,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .weatherData {
-	background-color: #2e3336;
+	background-color: #2C2C2C;
 	height: 30%;
 	width: 100%;
 	position: absolute;
@@ -58,7 +60,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-	color: #c5cdcf;
+	color: #eee;
 	font-family: 'Open Sans';
 	font-weight: 200;
 	font-size: 2.9375em;
@@ -70,7 +72,7 @@ h1 {
 }
 
 h2 {
-	color: #8f9b9d;
+	color: #bbb;
 	font-family: 'Open Sans';
 	font-weight: 200;
 	font-size: 1.1875em;
@@ -81,7 +83,7 @@ h2 {
 }
 
 h3 {
-	color: #c5cdcf;
+	color: #eee;
 	font-family: 'Open Sans';
 	font-weight: 400;
 	font-size: 0.8125em;
@@ -117,7 +119,7 @@ h5 {
 }
 
 .date {
-	background-color: #4dbde2;
+	background-color: #000;
 	height: 30%;
 	width: 22%;
 	position: absolute;
